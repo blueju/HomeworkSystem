@@ -1,0 +1,36 @@
+{
+  "name": "HomeworkSystem",
+  "version": "1.0.0",
+  "description": "My priceless Nuxt.js project",
+  "author": "LanJu",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "axios": "^0.18.0",
+    "cross-env": "^5.2.0",
+    "crypto-js": "^3.1.9-1",
+    "echarts": "^4.2.1",
+    "element-ui": "^2.5.4",
+    "iview": "^3.2.2",
+    "iview-editor": "^1.1.1",
+    "koa": "^2.6.2",
+    "node-sass": "^4.11.0",
+    "nuxt": "^2.4.0",
+    "sass-loader": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
